@@ -1,0 +1,59 @@
+/* ==UserStyle==
+@name           osu.ppy.sh - 08/05/2023, 16:51:04
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url("https://osu.ppy.sh/home") {    
+    .header-v4__row--title {
+        background-color: rgb(200, 200, 200);
+        font-size: 32px;
+    }
+    .header-v4__content {
+        width: 100%;
+        max-width: 1000px;
+        color: #000;
+        position: relative;
+    }
+  
+    .header-v4__icon {
+        background-image: url(/assets/images/home.03d09fb9.svg);
+        background-repeat: no-repeat;
+        background-position: 50%;
+        align-self: stretch;
+        width: 0px;
+        margin-right: 10px;
+        flex: none;
+        background-size: 75%;
+    }
+
+    .header-v4__row--bar {
+        background-color: rgb(180, 180, 180);
+    }
+    .header-nav-v4__link--active {
+        color: #000;
+        text-decoration: none;
+    }
+    .header-nav-v4__link {
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .user-home {background: rgb(255, 255, 255);padding: 50px;}
+    .user-home__news-title {color: #000;}
+    
+    .news-post-preview__body {background: rgb(200,200,200);}
+    .news-post-preview__post-date {color: #000;}
+    .news-post-preview__post-title {color: #000}
+    .news-post-preview__post-content {color: #000}
+    
+    .user-home__right-sidebar {background: rgb(200, 200, 200);}
+    .user-online-status__label {color: #000}
+    .user-online-status__value {color: #000}
+    .user-home__beatmap-list-title {color: #0a0}
+    .user-home__news-posts-group--more {background: #aaa;color: #0a0}
+    .user-home-beatmapset {background: #999; max-width: 100%; margin: 0 auto}
+    
+}
